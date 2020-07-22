@@ -6,12 +6,25 @@
 
 html,
 body {
+  background-color: blaCK;
   font-family: sans-serif;
-  background-color: slateblue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.mile img {
+  align-self: center;
+  background-attachment: fixed;
 }
 
-.avatar img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+h1 {
+  color: darkkhaki;
+  font-family: monospace;
+}
+span,
+td {
+  color: darkgoldenrod;
+}
+th {
+  color: darkgray;
 }
